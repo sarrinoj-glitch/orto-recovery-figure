@@ -1,26 +1,29 @@
-import { BodyCards, DoctorsTeaser, PricesTeaser } from '@/components/site/Home'
+import { BodyCards, PricesTeaser } from '@/components/site/Home'
 import { HeroLive } from '@/components/site/HeroLive'
 import { Start } from '@/components/site/Start'
 import { SecondOpinion } from '@/components/site/Conditions'
-import { WhatsAppPlan } from '@/components/site/Trust'
 import { Reviews } from '@/components/site/Reviews'
-import { Gallery } from '@/components/site/Gallery'
 import { Visit } from '@/components/site/Visit'
+import { Stats, StickySteps, Manifesto, DoctorsMorph, BookingFlow, MethodsMarquee, OrbitCta } from '@/components/site/Extras'
 
-// Главная первой версии: на первом экране интерактивный человечек «Покажите, где болит», как в исходном демо
+// Главная третьего варианта: на первом экране интерактивный человечек «Покажите, где болит», как в исходном демо
 export default function HomePage() {
   return (
     <>
       <HeroLive />
       <main>
         <Start />
+        <Stats />
         <BodyCards />
+        <StickySteps />
+        <Manifesto />
         <SecondOpinion />
-        <DoctorsTeaser />
-        <WhatsAppPlan />
+        <DoctorsMorph />
+        <BookingFlow />
+        <MethodsMarquee />
         <Reviews />
-        <Gallery />
         <PricesTeaser />
+        <OrbitCta />
         <Visit />
       </main>
     </>
