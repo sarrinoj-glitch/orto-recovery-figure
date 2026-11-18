@@ -77,8 +77,8 @@ export const BLOG_POSTS: BlogPost[] = [
   "category": "Дети",
   "service": "detyam",
   "reviewer": "Хаджалов Абузар Магомедович",
-  "cover": "g-explain.jpg",
-  "coverAlt": "Врач объясняет на доске",
+  "cover": "g-lfk.jpg",
+  "coverAlt": "Зал лечебной физкультуры, где проходят занятия для детей",
   "minutes": 3,
   "toc": [
    {
