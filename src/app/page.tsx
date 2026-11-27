@@ -4,6 +4,7 @@ import { Start } from '@/components/site/Start'
 import { SecondOpinion } from '@/components/site/Conditions'
 import { Reviews } from '@/components/site/Reviews'
 import { Visit } from '@/components/site/Visit'
+import { HomeLegal } from '@/components/site/LegalDoc'
 import { Stats, StickySteps, Manifesto, DoctorsMorph, BookingFlow, MethodsMarquee, OrbitCta } from '@/components/site/Extras'
 
 // Главная третьего варианта: на первом экране интерактивный человечек «Покажите, где болит», как в исходном демо
@@ -25,6 +26,7 @@ export default function HomePage() {
         <PricesTeaser />
         <OrbitCta />
         <Visit />
+        <HomeLegal />
       </main>
     </>
   )
